@@ -1,0 +1,131 @@
+section#foto_cabecalho_cardapio{
+    background-image: url(/images/image_cardapio_back.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 8px;
+}
+
+section#foto_cabecalho_cardapio h1{
+    font-family: 'Bebas neue', sans-serif;
+    font-weight: 400px;
+    color: #ffffff;
+    font-size: 94px;
+    margin-bottom: 40px;
+}
+
+section#foto_cabecalho_cardapio img{
+    width: 500px;
+    height: 25px;
+}
+
+#quemsomos{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+#coluna_esquerda{
+    width: 38%;
+    margin-right: 100px;
+    text-align: start;
+}
+
+#coluna_esquerda img{
+    line-height: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#coluna_esquerda h3{
+    color: #0170B9;
+    font-family: 'Bebas neue', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+#coluna_esquerda p{
+    color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+#coluna_direita{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#coluna_direita img{
+    width: 65%;
+}
+
+#comodidades_title{
+    color: #0170B9;
+    font-family: 'Bebas neue', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+
+#comodidades{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.iconify{
+    font-size: 4rem;
+}
+
+#pix{
+    color: rgb(0, 189, 142);
+}
+
+#wifi{
+    color: #9747FF;
+}
+
+#livro{
+    color: #FFA205;
+}
+
+#carro{
+    color: #FF0000;
+}
+
+#recomendacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#recomendacoes_title{
+    color: #0170B9;
+    font-family: 'Bebas neue', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+
+#recomendacoes img{
+    width: 20%;
+    margin-bottom: 10%;
+}
