@@ -1,0 +1,470 @@
+@import url(/style/fonts.css);
+
+section#foto_cabecalho_home {
+  background-image: url(/images/home_back.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  line-height: 8px;
+}
+
+#nomebandeira {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+}
+
+#foto_cabecalho_home h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 10vh;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 100%;
+  line-height: 10vh;
+}
+
+
+h2#sub_titulo {
+  color: #D09D47;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 4vh;
+  line-height: 100%;
+  margin: 0px;
+}
+
+h2#descricao {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 4vh;
+  line-height: 100%;
+}
+
+#bem_vindos {
+  background-image: url(/images/fundo-burger\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-attachment: fixed;
+  width: 100%;
+  justify-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+#bem_vindos #coluna_esquerda {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 10%;
+}
+
+#bem_vindos #coluna_esquerda h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 10vh;
+  line-height: 100%;
+  color: #226F54;
+  margin-bottom: 0px;
+}
+
+#bem_vindos #coluna_esquerda p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #000000;
+  font-size: 4vh;
+}
+
+#bem_vindos #coluna_esquerda button {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #226F54;
+  border-radius: 7px;
+  font-size: 22px;
+  color: #0170B9;
+  padding: 10px;
+  border-style: solid;
+}
+
+#bem_vindos #coluna_esquerda button:hover {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #0170B9;
+  border-radius: 7px;
+  font-size: 22px;
+  color: #000000;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+#bem_vindos #coluna_esquerda button span {
+  display: flex;
+  align-items: center;
+}
+
+
+#bem_vindos #coluna_direita {
+  background-image: url(/images/bemvindo_direita_back.png);
+  background-repeat: no-repeat;
+  width: 381px;
+  text-align: center;
+  height: 509px;
+}
+
+#bem_vindos #coluna_direita h1 {
+  color: #226F54;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 81px;
+  font-weight: 400;
+  line-height: 0px;
+  margin-top: 400px;
+  margin-bottom: 30px;
+}
+
+#bem_vindos #coluna_direita h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  section#foto_cabecalho_home {
+    height: 60vh;
+  }
+
+  #foto_cabecalho_home h1 {
+    font-size: 50px;
+    line-height: 100%;
+  }
+
+  #nomebandeira img {
+    display: none;
+    line-height: 100%;
+  }
+
+  h2#sub_titulo {
+    font-size: 4vw;
+    line-height: 100%;
+  }
+
+  h2#descricao {
+    font-size: 4vw;
+    line-height: 100%;
+  }
+
+  #bem_vindos {
+    flex-direction: column;
+  }
+
+  #bem_vindos #coluna_esquerda {
+    width: 70%;
+  }
+
+  #bem_vindos #coluna_esquerda p {
+    font-size: 3vh;
+  }
+
+  #nomebandeira img {
+    align-self: center;
+    width: 12vw;
+  }
+
+}
+
+#nosso_cardapio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cabecalho_cardapio {
+  text-align: center;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+#cabecalho_cardapio h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #226F54;
+  font-weight: 400;
+  font-size: 65px;
+  margin-top: 20px;
+  line-height: 0px;
+}
+
+#cabecalho_cardapio h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#itens_burguers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#item_flex {
+  display: flex;
+  width: 80%;
+}
+
+#item_flex img {
+  width: 10vw;
+}
+
+#coluna_esquerda_burguers {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#coluna_direita_burguers {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item h2 {
+  color: #333333;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.item p {
+  margin-left: 10px;
+}
+
+.item h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #0170B9;
+}
+
+@media only screen and (max-width: 1000px) {
+  #cabecalho_cardapio h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #226F54;
+    font-weight: 400;
+    font-size: 7vw;
+    margin-top: 20px;
+    line-height: 0px;
+  }
+
+  #cabecalho_cardapio h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5vw;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+
+
+  #itens_burguers {
+    flex-direction: column;
+  }
+
+  #item_flex {
+    width: 100%;
+  }
+
+  #item_flex img {
+    display: none;
+  }
+
+  #coluna_esquerda_burguers {
+    width: 100%;
+  }
+
+  #coluna_direita_burguers {
+    width: 100%;
+  }
+}
+
+#nosso_cardapio #botao_cardapio button {
+  background-color: #0170B9;
+  border: 0px;
+  border-radius: 68px;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin: 30px;
+}
+
+
+#sede_de_refri {
+  background-image: url(/images/fundo-burger\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-attachment: fixed;
+  width: 100%;
+  justify-items: center;
+}
+
+#sede_de_refri h1 {
+  line-height: 100%;
+}
+
+#sede_de_refri #coluna_esquerda img {
+  width: 90%;
+  margin-top: 50px;
+  justify-self: center;
+}
+
+#sede_de_refri #coluna_esquerda {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+#sede_de_refri #coluna_direita {
+  text-align: center;
+}
+
+#sede_de_refri #coluna_direita h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 24px;
+}
+
+#sede_de_refri #coluna_direita h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #226F54;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 0px;
+}
+
+#sede_de_refri #coluna_direita h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+}
+
+#sede_de_refri #coluna_direita button {
+  background-color: #0170B9;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 29px;
+  border: none;
+  border-radius: 14px;
+  padding: 20px 10px 20px 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#sede_de_refri #coluna_direita button:hover {
+  background-color: #226F54;
+  color: #ffffff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 29px;
+  border: none;
+  border-radius: 14px;
+  padding: 20px 10px 20px 10px;
+  margin-top: 30px;
+  transition: 0.2s;
+  margin-bottom: 20px;
+}
+
+#depoimentos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+#depoimentos img {
+  margin-top: 60px;
+  margin-bottom: opx;
+}
+
+#depoimentos_conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.depoimentos_individual {
+  width: 34%;
+}
+
+
+.depoimentos_individual p {
+  font-size: 18px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #333333;
+}
+
+.depoimentos_individual h2 {
+  font-size: 24px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #333333;
+}
+
+.depoimentos_individual h3 {
+  font-size: 15px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #888888;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #depoimentos_conteudo {
+    flex-direction: column;
+  }
+
+  .depoimentos_individual {
+    width: 80%;
+  }
+}

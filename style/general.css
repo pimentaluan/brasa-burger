@@ -1,0 +1,238 @@
+@import url(/style/fonts.css);
+
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu {
+  width: 60%;
+}
+
+.menu li {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 300%;
+  justify-content: space-evenly;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #0170B9;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.menu-item.active {
+  color: #00A54D;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#flexmenu {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown {
+  display: none;
+}
+
+.contato_botao {
+  background-color: #0170B9;
+  border: none;
+  border-radius: 50px;
+  padding: 20%;
+  font-size: 1.5rem;
+}
+
+.contato_botao a {
+  color: #FFF300;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .horizontal-menu {
+    display: none;
+    width: 0px;
+  }
+
+  #flexmenu {
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #menudrop {
+    width: 100%;
+  }
+
+  .contato_botao {
+    display: none;
+  }
+
+
+  .dropbtn .iconify {
+    color: black;
+    padding: 10%;
+    font-size: 8vw;
+    border: none;
+
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #0170B9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #FFF300;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    color: #0170B9;
+  }
+
+}
+
+#cima_footer {
+  background-image: url(/images/footer_back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 386px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cima_footer .iconify {
+  color: #0170B9;
+  font-size: 80px;
+  line-height: 0px;
+  margin-bottom: 0px;
+}
+
+#cima_footer h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 100%;
+  font-size: 3rem;
+}
+
+#cima_footer h2#numero {
+  color: #FFF300;
+  font-size: 3.5rem;
+  line-height: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#baixo_footer {
+  display: flex;
+  background-color: #CACACA;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+#baixo_footer .iconify {
+  font-size: 3rem;
+  color: #0170B9;
+  margin: 20px;
+}
+
+#baixo_footer .iconify:hover {
+  font-size: 3rem;
+  color: #00A54D;
+  margin: 20px;
+}
+
+
+#baixo_footer #coluna_direita {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+
+}
+
+#baixo_footer p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #00A54D;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 3pxpx;
+}
+
+#baixo_footer p span a {
+  text-decoration: none;
+  color: #0170B9;
+}
+
+#baixo_footer p span a:hover {
+  text-decoration: none;
+  color: #00A54D;
+}
+
+#menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+#icon {
+  cursor: pointer;
+}
