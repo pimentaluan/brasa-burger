@@ -1,7 +1,7 @@
-@import url(/style/fonts.css);
+@import url(./style/fonts.css);
 
 section#foto_cabecalho_home {
-  background-image: url(/images/home_back.png);
+  background-image: url(./images/home_back.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ h2#descricao {
 }
 
 #bem_vindos {
-  background-image: url(/images/fundo-burger\ 1.png);
+  background-image: url(./images/fundo-burger\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -129,7 +129,7 @@ h2#descricao {
 
 
 #bem_vindos #coluna_direita {
-  background-image: url(/images/bemvindo_direita_back.png);
+  background-image: url(./images/bemvindo_direita_back.png);
   background-repeat: no-repeat;
   width: 381px;
   text-align: center;
@@ -324,7 +324,7 @@ h2#descricao {
 
 
 #sede_de_refri {
-  background-image: url(/images/fundo-burger\ 1.png);
+  background-image: url(./images/fundo-burger\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
